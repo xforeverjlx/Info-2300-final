@@ -1,0 +1,194 @@
+html {
+  font-family: sans-serif;
+}
+
+a[href="index.php"]{
+  text-decoration:none;
+  color: #e46330;
+}
+
+h1,
+a {
+  /* color: navy; */
+  color: #e46330;
+  font-weight: 20;
+}
+
+h2 {
+  /* color: #4682B4; */
+  color: #e46330;
+  font-weight: 20;
+}
+
+header {
+  /* background-color: #f6f2eb; */
+  background-color: #ffffff67;
+  padding: 1px 0 30px 0;
+}
+
+header #title {
+  padding: 10px;
+}
+
+#menu {
+  display: inline;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu li {
+  margin: 0;
+  padding: 10px;
+  display: inline;
+}
+
+footer {
+  padding: 10px 10px;
+  background-color: #fedcd2;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #ffffff;
+  /* background-color: #B7D4DB; */
+}
+
+figure {
+  margin: 20px;
+}
+
+figure img {
+  width: 200px;
+}
+
+#content {}
+
+#content-wrap {
+  padding: 10px;
+}
+
+#more {
+  font-weight: bold;
+  background-color: #978fad;
+  padding: 10px;
+  font-size: 18px;
+
+  cursor: pointer;
+}
+
+#more:hover {
+  background-color: #78e6cf;
+}
+
+#more-content {
+  background: #bbbbbb;
+  padding: 10px;
+}
+
+#mail {
+  width: 300px;
+}
+
+#submit {
+  margin-top: 10px;
+}
+
+#database {
+  float: right;
+}
+
+cite {
+  font-size: 70%;
+}
+
+.error {
+  display: inline-block;
+  background-color: white;
+  border: 1px #b92467 solid;
+  color: #b92467;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex_box {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px 10px 0px;
+}
+
+#side_bar {
+  margin: 0px 45px 0px 5px;
+  width: 25%;
+}
+
+#main_table {
+  margin: 0px 5px 0px 45px;
+  width: 80%;
+}
+.gallery ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+.gallery li{
+  margin: 10px 15px 20px 15px;
+}
+
+.gallery li a {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.gallery li img {
+  vertical-align: bottom;
+  /* flex-grow: 0; */
+  height: 200px;
+  width: 160px;
+  margin: 0px 10px 15px 10px;
+}
+
+.gallery li p {
+  text-align: center;
+  width: 160px;
+  line-height: 25px;
+  margin: -10px 0px 1px 0px;
+}
+
+#search {
+  font-size: 100%;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 3px;
+  padding: 5px 8px 5px 8px;
+  margin-right: 3px;
+}
+
+#search_button {
+  font-size: 98%;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 167, 207);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+}
+
+.filter div{
+  background-color: #ffffff;
+  width: 92%;
+  padding-bottom: 10px;
+}
